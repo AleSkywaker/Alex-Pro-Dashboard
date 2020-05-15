@@ -1,4 +1,4 @@
-import { PageRoutingModule } from "./pages/progress/pages-routing.module";
+import { PageRoutingModule } from "./pages/pages-routing.module";
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
 
