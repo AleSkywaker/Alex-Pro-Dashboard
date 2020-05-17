@@ -12,7 +12,17 @@ export class DonutsChartComponent implements OnInit {
   @Input() label: Label[];
   @Input() type: ChartType;
   @Input() titulo: string;
-
+  public pieChartColors = [
+    {
+      backgroundColor: [
+        "rgba(13, 0, 255, 1)",
+        "rgba(55, 255, 0, 1)",
+        "rgba(255, 229, 0, 1)",
+      ],
+      borderColor: ["rgba(0, 0, 0, 1)", "rgba(0, 0, 0, 1)", "rgba(0, 0, 0, 1)"],
+      borderWidth: 1,
+    },
+  ];
   constructor() {}
 
   ngOnInit() {}
