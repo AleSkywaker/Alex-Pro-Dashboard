@@ -1,3 +1,5 @@
+import { RxjsComponent } from "./rxjs/rxjs.component";
+import { PromesasComponent } from "./promesas/promesas.component";
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 
@@ -16,6 +18,8 @@ const pageRoute: Routes = [
       { path: "dashboard", component: DashboardComponent },
       { path: "progress", component: ProgressComponent },
       { path: "graficas", component: Graficas1Component },
+      { path: "promesas", component: PromesasComponent },
+      { path: "rxjs", component: RxjsComponent },
       { path: "account-settings", component: AccountSettingsComponent },
       { path: "", redirectTo: "/dashboard", pathMatch: "full" },
     ],
