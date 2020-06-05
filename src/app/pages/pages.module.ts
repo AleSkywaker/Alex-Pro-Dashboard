@@ -12,6 +12,8 @@ import { IncrementadorComponent } from "../components/incrementador/incrementado
 import { ChartsModule } from "ng2-charts";
 import { DonutsChartComponent } from "../components/donuts-chart/donuts-chart.component";
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     IncrementadorComponent,
     DonutsChartComponent,
     AccountSettingsComponent,
+    PromesasComponent,
+    RxjsComponent,
   ],
   exports: [DashboardComponent, Graficas1Component],
   imports: [PageRoutingModule, SharedModule, FormsModule, ChartsModule],
